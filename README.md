@@ -4,8 +4,8 @@ add www prefix to host
 ```xml
 <VirtualHost *:80>
     ServerName nhancv.com
-    DocumentRoot "resource dir"
-    <Directory "resource dir">
+    DocumentRoot "this repository dir"
+    <Directory "this repository dir">
         Options Indexes FollowSymLinks Includes execCGI
         AllowOverride All
         Require all granted
