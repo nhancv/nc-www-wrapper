@@ -15,3 +15,13 @@ add www prefix to host
 
 ###Usage
 access if you access to nhancv.com it auto redirect to www.nhancv.com
+
+- select with http
+```bash
+$ git checkout tags/http
+```
+
+- select with https
+```bash
+$ git checkout tags/https
+```
